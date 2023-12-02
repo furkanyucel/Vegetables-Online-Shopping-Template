@@ -45,3 +45,15 @@
   width: 100%;
   font-size: 18px;
 }
+
+@media (max-width: 425px) {
+  .testimonial article:nth-last-child(1) {
+    width: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .testimonial article:nth-last-child(1) {
+    width: 250px;
+  }
+}

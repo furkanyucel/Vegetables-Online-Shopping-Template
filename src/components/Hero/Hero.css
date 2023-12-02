@@ -41,24 +41,26 @@
 
 .hero .heroSlider .heroInfo .heroButtons {
   margin-top: 3rem;
+  display: flex;
+  column-gap: 1rem;
 }
 
-.hero .heroSlider .heroInfo .heroButtons button {
+/* .hero .heroSlider .heroInfo .heroButtons .heroBtn {
   padding: 1rem 3rem;
   border: none;
-  background: orange;
+  background: orange !important;
   color: #f9f9f9;
   font-size: 16px;
-}
+} */
 
-.hero .heroSlider .heroInfo .heroButtons button:nth-last-child(1) {
+/* .hero .heroSlider .heroInfo .heroButtons button:nth-last-child(1) {
   margin-left: 1rem;
   background-color: #222;
-}
+} */
 
-.hero .heroSlider .heroInfo .heroButtons button:hover {
+/* .hero .heroSlider .heroInfo .heroButtons button:hover {
   opacity: 0.7;
-}
+} */
 
 .arrows {
   position: absolute;
@@ -138,5 +140,7 @@
   .hero .heroSlider .heroInfo .heroButtons button:nth-last-child(1) {
     margin-top: 1rem;
     margin-left: 0rem;
+    display: flex;
   }
 }
+

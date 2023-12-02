@@ -1,3 +1,4 @@
+import Button from "../Button/Button"
 import "./About.css"
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
             <img src="/images/img-3.png" alt="About Image" />
           </figure>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
-          <a href="#">Read More</a>
+          <Button className="aboutBtn">Read More</Button>
         </article>
       </section>
     </div>

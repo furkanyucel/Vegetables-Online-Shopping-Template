@@ -1,6 +1,7 @@
 import Card from "../Card/Card"
 import "./Vegetables.css"
 import {productData} from "./ProductData.js";
+import Button from "../Button/Button";
 
 const Vegetables = () => {
   return (
@@ -20,6 +21,9 @@ const Vegetables = () => {
               />
             )
           })}
+        <div className="vegetablesBtn">
+        <Button>Read More</Button>
+        </div>
         </article>
       </section>
     </div>

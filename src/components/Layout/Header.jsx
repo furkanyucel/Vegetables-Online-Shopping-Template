@@ -1,3 +1,4 @@
+import SearchModal from "../Search/SearchModal"
 import "./Header.css"
 
 const Header = () => {
@@ -17,7 +18,8 @@ const Header = () => {
         </ul>
         
         <div className="search">
-          <img src="/images/search-icon.png" alt="Search Icon" />
+          {/* <img src="/images/search-icon.png" alt="Search Icon" /> */}
+          <SearchModal />
         </div>
       </nav>
 

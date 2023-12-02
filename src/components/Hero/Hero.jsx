@@ -1,3 +1,4 @@
+import Button from "../Button/Button"
 import "./Hero.css"
 
 const Hero = () => {
@@ -13,8 +14,8 @@ const Hero = () => {
           <h1>Vegetables <span>Shop</span></h1>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
           <div className="heroButtons">
-            <button>Buy Now</button>
-            <button>Read More</button>
+            <Button>Buy Now</Button>
+            <Button>Read More</Button>
           </div>
         </section>
         <figure className="arrows">

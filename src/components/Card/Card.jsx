@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import "./Card.css"
 
 const Card = ({urunler}) => {
@@ -13,7 +14,8 @@ const Card = ({urunler}) => {
     <p className="product">{product}</p>
     <p className="amount">{amount}</p>
     <p className="info">{info}</p>
-    <a href="">Buy Now</a>
+    {/* <a href="">Buy Now</a> */}
+    <Button>Buy Now</Button>
   </div>
   )
 }

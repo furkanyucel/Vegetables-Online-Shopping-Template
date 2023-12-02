@@ -23,3 +23,7 @@
   align-items: flex-end;
   gap: 1rem;
 }
+
+.vegetablesBtn {
+  margin-top: 3rem;
+}
